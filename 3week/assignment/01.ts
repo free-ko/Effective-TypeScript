@@ -6,7 +6,6 @@
  * */
 
 {
-    type Language = 'ko' | 'en' | 'ja' | 'zh-CN' | 'zh-TW' | 'vi' | 'id' | 'th' | 'de' | 'ru' | 'es' | 'it' | 'fr';
-    type PapagoParamsSource = Language;
-    type PapagoParamsTarget = Language;
+    type PapagoParamsSource = 'ko' | 'en' | 'ja' | 'zh-CN' | 'zh-TW' | 'vi' | 'id' | 'th' | 'de' | 'ru' | 'es' | 'it' | 'fr';
+    type PapagoParamsTarget = PapagoParamsSource;
 }
